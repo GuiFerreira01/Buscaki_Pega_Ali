@@ -2,7 +2,7 @@ import { useState } from 'react'
 import feijao from "../../img/feijao.png"
 import celular from '../../img/celular.png'
 import Frente from '../../img/frente.png'
-import iphone from '../../img/iphone1.png'
+import iphone from '../../img/Iphoneimg-removebg-preview.png'
 import traz from '../../img/traz.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -206,7 +206,7 @@ function Kaique(){
                         <div className="row">
                             <div>
                                 <h4 className="m-2 mb-3 col-12 nome-prod d-none d-lg-block">iPhone 13 Apple (64GB) Cinza Espacial Tela 6,1" Câmera 12MP iOS</h4>
-                                <h4 className="m-2 mb-3 col-12">R$ 9.232,00 <span className="lead">ou em 12x 173,25 sem juros</span></h4>
+                                <h4 className="m-2 mb-3 col-12">R$ 1.299,99 <span className="lead">ou em 12x 108,33 sem juros</span></h4>
                             </div>
                         </div>
                     </div>
@@ -290,7 +290,7 @@ function Kaique(){
 
 function Fotoum() {
     let img = document.getElementById("myImage1");
-    img.setAttribute('src', '/static/media/iphone1.ff7aa2a4.png');
+    img.setAttribute('src', '/static/media/Iphoneimg-removebg-preview.9faf8591.png');
 }
 function Fotodois() {
     let img = document.getElementById("myImage1");

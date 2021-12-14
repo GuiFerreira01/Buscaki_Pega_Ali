@@ -32,6 +32,7 @@ import Chinelo from '../../img/Chinelo.jpeg'
 import roupeiro from '../../img/roupeiro_6_portas_2_gavetas_s736_kappesberg_texturizado_nat_1566724940_260b_600x600.jpg'
 import portas from '../../img/3portas.png'
 import beliche from '../../img/beliche.jpg'
+import maquina from '../../img/Lavadora-Brastemp-BWN15AT-Frontal-1.jpg'
 
 export default (props) => {  
 
@@ -44,7 +45,7 @@ export default (props) => {
                 <p className="h6">A partir de <br/>{"R$" + props.valor + ",00"}</p>
             </div>
             <div className="button">
-                <Link to={`/produto/${props.id}`}  className="btn btn-primary">Confira</Link>
+                <Link to={`/produto/${props.id}`}  className="btn btn-primary btn-full">Confira</Link>
             </div>
         </div>
     )

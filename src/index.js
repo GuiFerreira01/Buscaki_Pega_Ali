@@ -18,12 +18,14 @@
   import Iphone from './iphone';
   import Login from './Pages/Login/Login';
   import Registrar from './Pages/Login/Registrar-se';
+import MainLogado from './MainLogado';
 
 
   ReactDOM.render(
       < Router >
         <Routes>
           <Route path="/" exact element={<Main />} />
+          <Route path="/=" exact element={<MainLogado />} />
           <Route path="/user" element={<Produto />} />
           <Route path="/Pesquisa" element={<Pesquisa />} />
           <Route path="/produto/:id" element={<PedroProduto />} />

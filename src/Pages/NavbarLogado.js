@@ -2,7 +2,7 @@ import Kaique from '../img/logo-branca.png'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-  function Navbar(){
+  function NavbarLogado(){
     const [TemaX, setTemaX] = useState(0);
 
     const Tema = () => {
@@ -46,7 +46,7 @@ import { Link } from 'react-router-dom';
                     <h5 className="offcanvas-title" id="offcanvasNavbarLabel"><img src={Kaique} className="d-block logo-branca-header" alt="Logo Buscaki pega ali cor branca" /></h5>
                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div className="offcanvas-body">
+                <div className="offcanvas-body">    
                     <div className="bd-highlight mb-3 CAT justify-content-center flex-grow-1 pe-3 align-items-center">
                         <li className="nav-item">
                         <a className="nav-link branco" aria-current="page" href="#">Lojas</a>
@@ -62,7 +62,7 @@ import { Link } from 'react-router-dom';
                         </li>  
                     </div>
                     <div className="carrinho">
-                        <a className="nav-link login" href="/Login">Login/Registre-se <i className="bi bi-person-circle"></i></a>
+                        <a className="nav-link login" href="#">Olá, Tia Nenê! <i className="bi bi-person-circle"></i></a>
                         <div className="d-flex"><a className="nav-link" onClick={Tema} >Carrinho <i className="bi bi-cart2 " ></i></a></div>
                     </div> 
                 </div>
@@ -72,4 +72,4 @@ import { Link } from 'react-router-dom';
     );
 }
 
-export default Navbar;
+export default NavbarLogado;

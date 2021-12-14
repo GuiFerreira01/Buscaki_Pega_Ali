@@ -7,21 +7,20 @@ import BarraPesq from './Pages/Main/Pesquisa'
 import Foryou from './Pages/Main/4you'
 import Vendedores from './Pages/Main/Vendedores'
 import Footer from './Pages/Footer'
+import NavbarLogado from './Pages/NavbarLogado'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-function Main() {
+function MainLogado() {
     return(
         <div>
-            <Navbar />
+            <NavbarLogado />
             <Carrossel />
             <BarraPesq />
-            <TitleCards title="Oferta do dia" classe="text-center text-light bg-blue  h1" />
+            <TitleCards title="Oferta do dia" classe="text-center text-light  bg-blue h1" />
             <Oferta />
             <TitleCards title="Para você" classe="text-center text-light bg-blue  h1" />
             <Foryou />
             <Banner />
-            <div className="d-none d-xl-block">
+            <div className=" d-none d-xl-block">
                 <TitleCards title="Melhores Vendedores" classe="text-center text-light bg-blue  h1" />
                 <Vendedores />
             </div>
@@ -30,4 +29,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default MainLogado;

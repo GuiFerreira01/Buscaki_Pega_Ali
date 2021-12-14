@@ -17,12 +17,26 @@
   font-family: 'Montserrat', sans-serif !important; 
 } */
 
-  
 
-  .img-ico{
+.fot{
+  background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+  margin-top: 5rem;
+}
+.preço_produto2 {
+  padding-right: 0;
+}
+.fonte-texto {
+  font-size: 25px;
+  font-weight: 400;
+  padding-right: 0;
+}
+  #body{
+    height: 963px;
+  }
+  /* .img-ico{
     width: 129px !important;
     height: 89px; 
-  }
+  } */
   .text-justify{
     text-align: justify;
     display: flex;
@@ -52,8 +66,14 @@
  .outros{
    font-size: 3.5rem;
  }
- #logo {
-   display: none;
+ .logo-principal{
+   width: 94%;
+ }
+ #logo{
+   width: 78%;
+ }
+ #mgfooter{
+   margin-top: 9%;
  }
  #colapse{
    margin: 2% 2% 2% 4%;
@@ -84,6 +104,9 @@
  .card {
    width: 32%;
  }
+ .card_vendedor {
+  width: 32%;
+}
  .center .BBG{
    font-size: 24px;
  }
@@ -107,6 +130,14 @@
   #mgfooter{
     margin-top: 5%;
   }
+  #logo{
+    width: 78%;
+  }
+  .fot{
+    background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+    margin-top: 0rem;
+  }
+  
 }
 
 @media (min-width: 579px) {
@@ -123,6 +154,13 @@
   }
   .center .BBG{
    font-size: 6px;
+  }
+  #logo{
+    width: 78%;
+  }
+  .fot{
+    background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+    margin-top: 0rem;
   }
 }
 @media (min-width: 650px) {
@@ -150,7 +188,12 @@
   #mgfooter{
     margin-top: 3%;
   }
-}
+  #logo{
+    width: 78%;
+  }.fot{
+    background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+    margin-top: 0rem;
+  }}
 @media (min-width: 768px) {
   .carrossel-md {
       margin-left: auto;
@@ -165,6 +208,9 @@
   .card{
     width: 23%;
   }
+  .card_vendedor{
+    width: 23%;
+  }
   .center .BBG{
     font-size: 67px;
   }
@@ -177,7 +223,21 @@
   .container-resp{
       max-width: 80%;
   }
- 
+  #logo{
+    width: 78%;
+  }
+  .fonte-texto {
+    font-size: 25px;
+    font-weight: 400;
+    padding-right: 150px;
+  }
+  .preço_produto2 {
+    padding-right: 150px;
+  }
+  .fot{
+    background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+    margin-top: 0rem;
+  }
 }
 @media (min-width: 822px) {
   .tamsl1{
@@ -204,157 +264,168 @@
   #mgfooter{
     margin-top: 0%;
   }
+  .fot{
+    background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
+    margin-top: 0rem;
+  }
 }
 
 @media (min-width: 992px){
- .navbar-expand-lg .navbar-collapse {
-     display: block !important;
-     flex-basis: auto;
- }
- .iphone-img {
-   margin-left: 30%;
- }
- .mercado-img{
-   margin-left: 30%;
- }
- .iphone-img{
-   width: 17.7rem;
-   margin-top: 0;
-   margin-bottom: 5%;
-   margin-left: 30%;
- }
- .logo-branca-carrossel{
-   width: 25rem;
-   margin-top: 10% ;
-   margin-bottom: 15% ;
-   margin-left: 15%;
- }
- .mercado-img{
-   width: 22.4rem;
-   margin-top: 7%;
-   margin-bottom: 10%;
-   margin-left: 21%;
- }
- .logo-branca-header{
-   width: 179px;
- }
- .mg-logo {
-   margin:0;
-   padding: 0;
-   height: 64px;
-   width: 194px;
- }
- .CAT {
-   display: flex;
- }
- .carrinho {
-   display: flex;
-   justify-content: end;
-   flex-direction: column;
-   align-items: flex-end;
- }
- #colapse {
-   display: none;
- }
- .collapse:not(.show) {
-   display: flex !important;
- }
- .apg{
-   display: flex;
- }
- .smg{
-   display: none;
- }
+  .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+    flex-basis: auto;
+  }
+  .iphone-img {
+    margin-left: 30%;
+  }
+  .mercado-img{
+    margin-left: 30%;
+  }
+  .iphone-img{
+    width: 17.7rem;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: 30%;
+  }
+  .logo-branca-carrossel{
+    width: 25rem;
+    margin-top: 10% ;
+    margin-bottom: 15% ;
+    margin-left: 15%;
+  }
+  .mercado-img{
+    width: 22.4rem;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 21%;
+  }
+  .logo-branca-header{
+    width: 179px;
+  }
+  .mg-logo {
+    margin:0;
+    padding: 0;
+    height: 64px;
+    width: 194px;
+  }
+  .CAT {
+    display: flex;
+  }
+  .carrinho {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  #colapse {
+    display: none;
+  }
+  .collapse:not(.show) {
+    display: flex !important;
+  }
+  .apg{
+    display: flex;
+  }
+  .smg{
+    display: none;
+  }
 }
  
 @media (min-width: 1000px) {
- .login {
-   padding-left: 0.5rem;
-   margin-top: -6%;
- }
- .grande{
-   width: 500px;
- }
- .logo-branca-header{
-   width: 200px;
- }
- .GB {
-   display: block;
- }
- .pd{
-   padding-left: 0%;
- }
- .collapse {
-   display: flex;
- }
- .tamsl1{
-   height: auto;
- }
- .tamsl2{
-   height: auto;
- }
- .tamsl3{
-   height: auto;
- }
- .d-l-block{
-  display: block !important;
- }
- .d-l-none{
-  display: none !important;
- }
+  .login {
+    padding-left: 0.5rem;
+    margin-top: -6%;
+  }
+  .grande{
+    width: 500px;
+  }
+  .logo-branca-header{
+    width: 200px;
+  }
+  .GB {
+    display: block;
+  }
+  .pd{
+    padding-left: 0%;
+  }
+  .collapse {
+    display: flex;
+  }
+  .tamsl1{
+    height: auto;
+  }
+  .tamsl2{
+    height: auto;
+  }
+  .tamsl3{
+    height: auto;
+  }
+  .d-l-block{
+    display: block !important;
+  }
+  .d-l-none{
+    display: none !important;
+  }
+  #body{
+    height: 609px;
+  }
 }
 
 @media (min-width: 1200px) {
- .bannerimgmd {
-     margin-left: 45%;
-     margin-top: 40%;
- }
- .iphone-img{
-   width: 17.7rem;
-   margin-top: 0;
-   margin-bottom: 5%;
-   margin-left: 34%;
- }
- .logo-branca-carrossel{
-   width: 25rem;
-   margin-top: 10% ;
-   margin-bottom: 15% ;
-   margin-left: 15%;
- }
- .mercado-img{
-   width: 22.4rem;
-   margin-top: 7%;
-   margin-bottom: 10%;
-   margin-left: 24%;
- }
- input[type=search] {
-   width: 100%;
- }
- .logo-branca-header{
-   width: 213px;
- }
- .mg-logo {
-   margin:0;
-   padding: 0;
-   height: 64px;
-   width: 194px;
- }
- .CAT {
-   display: flex;
- }
- h1{
-   font-size: 4.5rem;
- }
- .card {
-   width: 18%;
- }
+  .bannerimgmd {
+      margin-left: 45%;
+      margin-top: 40%;
+  }
+  .iphone-img{
+    width: 17.7rem;
+    margin-top: 0;
+    margin-bottom: 5%;
+    margin-left: 34%;
+  }
+  .logo-branca-carrossel{
+    width: 25rem;
+    margin-top: 10% ;
+    margin-bottom: 15% ;
+    margin-left: 15%;
+  }
+  .mercado-img{
+    width: 22.4rem;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    margin-left: 24%;
+  }
+  input[type=search] {
+    width: 100%;
+  }
+  .logo-branca-header{
+    width: 213px;
+  }
+  .mg-logo {
+    margin:0;
+    padding: 0;
+    height: 64px;
+    width: 194px;
+  }
+  .CAT {
+    display: flex;
+  }
+  h1{
+    font-size: 4.5rem;
+  }
+  .card {
+    width: 18%;
+  }
+  #logo{
+    width: auto;
+  }
+}
+@media (min-width: 1400px) {
+  #body{
+    height: 963px;
+  }
 }
 
 
-@media (min-width:1400px) {
- 
-}
- 
 
 /* Header */
 
@@ -416,13 +487,17 @@
 /* Pesquisa */
 
   .centro {
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 
   .DEGpesq {
-  background: linear-gradient( #743dec 3%, #624082 119%) !important;
-  padding-top: 2%;
+    background: linear-gradient( #743dec 3%, #624082 119%) ;
+    padding-top: 2%;
+  }
+  .DEGpesquisa{
+    background: linear-gradient( #33aaff 3%, #624082 119%) !important ;
+    padding-top: 2%;
   }
 
 
@@ -430,24 +505,24 @@
 
 
   body {
-  background: #e6f1f1;
-  height: 100vh;
-  width: 100%;
+    background: #e6f1f1;
+    height: 100vh;
+    width: 100%;
 
-  color: #000000;
+    color: #000000;
 
-  font-size: 16px;
+    font-size: 16px;
   }
   .tmn {
-  width: 100%;
+    width: 100%;
   }
   .card h5 {
-  margin-top: 4%;
+    margin-top: 4%;
   }
   .card p {
-  vertical-align: bottom;
-  margin-bottom: 4%;
-  margin-top: 0;
+    vertical-align: bottom;
+    margin-bottom: 4%;
+    margin-top: 0;
   }
   .card-body {
     height: 131px !important;
@@ -459,45 +534,48 @@
     
   }
   .card .button {
-  vertical-align: bottom;
+    vertical-align: bottom;
   }
   .card button {
-  justify-content: end;
-  width: 100%;
+    justify-content: end;
+    width: 100%;
   }
 
   .img-card{
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .card{
-  flex-shrink: 0;
-  margin-top: 0;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin-right: 1%;
-  margin-left: 1%;
-  padding: 2%;
-  max-width: 100%;
-  max-height: 100%;
-  transition: all ease 0.20s;
+    flex-shrink: 0;
+    margin-top: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all ease 0.20s;
   }
 
   .root{
-  width: 100%;
+    width: 100%;
   }
   .cards {
-  display: flex;
-  width: 80%;
-  align-items: center;
-  overflow: hidden;
-  transition: all ease 0.20s;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    overflow: hidden;
+    transition: all ease 0.20s;
   }
   .btn-primary {
-    width: 100% !important;
+    
     color: #fff;
     background-color: #33aaff;
     border-color: #33aaff;
+  }
+  .btn-full {
+    width: 100%;
   }
   .h6{
     margin: 5% 0 10% 0;
@@ -505,29 +583,29 @@
 
 
   .center {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2%;
   }
   .center i {
-  font-size: 4rem;
+    font-size: 4rem;
   }
   .center .BBG{
-  cursor: pointer;
+    cursor: pointer;
   }
 
     /* Titulo Oferta */
 
   .oferta-title {
-  margin-top: 1%;
-  margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
   }
   .bg-blue{
-  background-image: linear-gradient( #33aaff 3%, #624082 119%) !important;
-  -webkit-background-clip: text;
-  background-clip: text !important;
-  color: transparent !important;
+    background-image: linear-gradient( #33aaff 3%, #624082 119%) !important;
+    -webkit-background-clip: text;
+    background-clip: text !important;
+    color: transparent !important;
   }
 
 
@@ -535,40 +613,40 @@
  
 
  .texto-banner {
-     text-align: end;
+    text-align: end;
  }
 
  .pa h1 {
-     font-weight: lighter;
-     font-family: 'lato', 'sans-serif';
+    font-weight: lighter;
+    font-family: 'lato', 'sans-serif';
  }
 
  .banner-bg {
-     background: linear-gradient(#0DCCFF -5%, #4760FF, #8A2BE2 119%) !important;
+    background: linear-gradient( #33AAFF 3%, #4760FF, #8A2BE2 96%);
      
  }
 
  .Redes {
-     padding-bottom: .2rem;
-     padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-top: .2rem;
      
  }
 
  .texto-redes {
-     text-align: center;
-     padding-top: 5px;
-     font-family: 'lato', 'sans-serif';
-     font-size: 2.3rem;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'lato', 'sans-serif';
+    font-size: 2.3rem;
  }
 
  .pe i {
-     color: #FFF;
-     font-size: 400%;
+    color: #FFF;
+    font-size: 400%;
  }
 
  .icones {
-     display: flex;
-     justify-content: center;
+    display: flex;
+    justify-content: center;
  }
  .bannerimg {
    display: flex;
@@ -610,7 +688,7 @@
   /* footer */
 
  footer{
-   background-color: #33aaff;
+  background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
    color: #fff;
  }
  .logo-branca-footer{
@@ -636,10 +714,7 @@
    display: flex;
    flex-direction: column;
  }
- .fot{
-   background: linear-gradient( #8A2BE2 3%, #4760FF,  #33AAFF 119%);
-   margin-top: 5rem;
- }
+
  footer p{
    font-size: 1rem;
  }
@@ -699,6 +774,7 @@
   }
   .j-pointer{
     cursor: pointer;
+    padding: 0 !important;
   }
   /* Comparação das lojas */
   .j-margin-left-2{
@@ -743,20 +819,11 @@
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .fonte-texto {
-    font-size: 25px;
-    font-weight: 400;
-    padding-right: 150px;
-
-  }
+  
   .preço_produto {
     font-size: 30px;
     font-weight: 300;
     color: #33AAFF;
-  }
-  .preço_produto2 {
-    padding-right: 150px;
-
   }
   #botaoSumir {
     margin-top: 52%;
@@ -803,12 +870,27 @@
 
   .card_vendedor {
     max-width: 250px;
-    margin: 9% auto 0;
-    background-image: linear-gradient(180deg,#8A2BE2,#33aaff);
+    background-image: linear-gradient(180deg,#33aaff, #8A2BE2);
     box-shadow: 0 10px 90px #00000024;
     text-align: center;
     font-size: 20px;
     border-radius: 15px;
+    flex-shrink: 0;
+    margin-right: 1%;
+    margin-left: 1%;
+    max-width: 100%;
+    max-height: 100%;
+    transition: all ease 0.20s;
+    cursor: pointer;
+    
+  }
+  .cards_verdedor{
+    display: flex;
+    width: 80%; 
+    align-items: center;
+    overflow: hidden;
+    transition: all ease 0.20s;
+    height: 690px;
   }
 
   .card_vendedor .card-header-vendedor {
@@ -826,25 +908,21 @@
     box-shadow: 0 0 20px #33aaff;
   }
 
-  .card_vendedor .card-header-vendedor .profile-img:hover {
+  .card_vendedor:hover .card-header-vendedor .profile-img {
     width: 180px;
     height: 180px;
     border: 8px solid rgb(136, 8, 175);
+    text-decoration: none;
   }
   .card_vendedor .card-body-vendedor {
-    padding: 10px 40px;
+    padding: 10px 14px;
   }
 
   .card_vendedor .card-body-vendedor .nome {
-    margin-top: 30px;
-    font-size: 27px;
+    margin-top: 20px;
+    font-size: 32px;
     font-weight: bold;
     color: #ffffff;
-  }
-
-  .card_vendedor .card-body-vendedor .nome:hover {
-    margin-top: 30px;
-    color:#33aaff;
   }
 
   .card_vendedor .card-body-vendedor .mail {
@@ -852,14 +930,10 @@
     color: #c2bdbd;
   }
 
-  .card_vendedor .card-body-vendedor .mail:hover {
-    font-size: 16px;
-    color: #33aaff;
-  }
-
   .card_vendedor .card-body-vendedor .trabalho {
     margin-top: 10px;
     font-size: 14px;
+    color: white;
   }
 
   .card_vendedor .social-links {
@@ -895,6 +969,7 @@
 
   .card_vendedor .card-footer-vendedor .count {
     font-size: 14px;
+    
   }  
   .count{
     background-color: #DAA520;
@@ -902,6 +977,7 @@
   .ouro{
     color: #DAA520;
     font-size: 23px;
+    text-shadow: 1px 1px #000000;
   }
   .prata{
     color:#c0c0c0;
@@ -917,7 +993,7 @@
       background-image: linear-gradient(#33AAFF 3%, #4760FF, #8A2BE2 119%) !important;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 927px;
+
   }
   .j-login {
     width: 900px;

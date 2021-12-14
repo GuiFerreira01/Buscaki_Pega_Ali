@@ -14,11 +14,12 @@ function MakeCard({ products, scrollX }){
             console.log(product.id)
             return (
                 <CardVendedores 
-                    // style={{ marginLeft: index === 0 ? scrollX + 'px' : '1%'}} 
+                    style={{ marginLeft: index === 0 ? scrollX + 'px' : '1%'}} 
                     id={product.id} 
                     nome={product.nome} 
                     image={product.image}
                     email={product.email}
+                    desc={product.desc}
                     nivel={product.nivel}
                 />
         )})
@@ -41,7 +42,7 @@ function Vendedores() {
 
     const handleLeftArrow = () => {
         let tamanhoTela = window.innerWidth * 0.8;
-        let quantidadeCards = 15;
+        let quantidadeCards = 5;
         let tamanhoCards = 0.21;
 
         if(window.innerWidth < 800){
@@ -70,7 +71,7 @@ function Vendedores() {
 
     const handleRightArrow = () => {
         let tamanhoTela = window.innerWidth * 0.8;
-        let quantidadeCards = 15;
+        let quantidadeCards = 5;
         let tamanhoCards = 0.21;
     
          if(window.innerWidth < 800){
@@ -100,7 +101,7 @@ function Vendedores() {
 
     return(  
         <div className="center">
-            <div className="cards" >
+            <div className="cards_verdedor" >
                 <MakeCard products={products} scrollX={scrollX} />
             </div>
         </div>

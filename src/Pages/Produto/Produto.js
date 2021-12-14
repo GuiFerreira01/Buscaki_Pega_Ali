@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import feijao from "../../img/feijao.png"
-import celular from '../../img/celular.png'
+import celular from '../../img/Iphoneimg-removebg-preview.png'
 import cafe from '../../img/cafe.png'
 
 import Medal from '../../img/medal-solid.svg';

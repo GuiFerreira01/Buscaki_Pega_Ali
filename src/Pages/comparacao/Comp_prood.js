@@ -10,7 +10,7 @@ import Repeat from './Comp_repeat'
       {
         id:226,
         Image: iphone1,
-        Nome: "Loginha do Clebin", 
+        Nome: "Santa Helena", 
         Title:"Iphone1",
         Link:"/iphone",
         Preço:"1.299,99",
@@ -19,7 +19,7 @@ import Repeat from './Comp_repeat'
       {
         id:326,
         Image: iphone2,
-        Nome: "Seu donizvaldo",
+        Nome: "HPE Eletrônicos",
         Title:"Iphone2",
         Link:"/iphone",
         Preço:"1.486,00",
@@ -28,7 +28,7 @@ import Repeat from './Comp_repeat'
       {
         id:366,
         Image: iphone3,
-        Nome: "Assistência Técnica",
+        Nome: "Costa's Informática",
         Title:"Iphone3",
         Link:"/iphone",
         Preço:"1.350,00",
@@ -37,7 +37,7 @@ import Repeat from './Comp_repeat'
       {
         id:426,
         Image: iphone4,
-        Nome: "Cris celulares e computadores",
+        Nome: "Cris celulares",
         Title:"Iphone4",
         Link:"/iphone",
         Preço:"1.400,00",
@@ -46,7 +46,7 @@ import Repeat from './Comp_repeat'
       {
         id:466,
         Image: iphone5,
-        Nome: "Loginha da esquina",
+        Nome: "Ferreira PC",
         Title:"Iphone5",
         Link:"/iphone",
         Preço:"1.435,00",
